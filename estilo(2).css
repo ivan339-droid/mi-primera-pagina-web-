@@ -1,0 +1,192 @@
+  ul{
+
+    background: black  ;
+    height: 70px;
+    margin:-10px;
+    padding:-10px;
+}
+  ul li{
+    font-family: cursive;
+    display:block;
+    float:left;
+    padding:0 10px;
+    background: black  ;
+    padding: 15px;
+    margin: 15px;
+}
+  li a {
+
+    padding: 3px 10px;
+    border-left:rgb(88, 170, 159) 5px  solid;
+    color: aliceblue;
+    background: black  ;
+  }
+  li a:hover{
+
+    border:rgb(88, 170, 159) 5px  solid ;  
+}
+  body{
+
+    margin: 0;
+ }
+  p>strong:hover{
+
+	color :rgb(88, 170, 159) ;
+}
+
+  p{
+    
+	margin: 25px;
+    padding: 0px;
+}
+  h1{
+    font-family: comic sans MS,arial,verdana ;
+    font-size: 40px;
+	color:rgb(88, 170, 159) ;
+	text-align: center;
+}
+  h2{
+
+    text-align: center;
+    font-size: 30px;
+	color:rgb(88, 170, 159);
+	margin: 50px;
+}
+  h3{
+  
+    font-size: 20px;
+	color:rgb(88, 170, 159) ;
+}
+  iframe{
+
+	margin:20px 350px ; 
+	padding: 25px; 
+	border: solid 15px rgb(88, 170, 159);
+	border-radius: 30px;
+	align-items: center;	
+}
+  #foto2{
+
+	margin: 6px;
+    float: left;
+	color :yellow;
+	border:7px solid rgb(0, 0, 0);
+}
+  a:hover{
+   
+	color: rgb(88, 170, 159);
+}
+  *{
+
+    
+	background-image: url("https://www.xtrafondos.com/descargar.php?id=2802&resolucion=2560x1600") ;	
+}
+
+  p:hover{
+
+	color : rgb(160, 113, 113) ;
+}
+  p{
+
+    font-size: 20px;
+	color:white ;
+}
+  #foto{
+
+	align-items: center;
+	border-radius: 1000px ;
+	border: 15px solid rgb(88, 170, 159);
+	margin: 20px 200px ;
+	padding: 25px;
+    width: 700px; 
+     
+}
+  a{
+
+    color: white;	
+}
+  body{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 600px;
+    max-width: 2000px;
+}
+@media screen and (max-width:980px) {
+  .container {
+    width:98%;
+}
+  section {
+    width:68%;
+}
+  #foto{
+    display:block;
+    margin:50;
+    width: 550px;
+   
+    align-items: center;
+}
+  iframe{
+    display:block;
+    margin:20px 200px;
+    align-items: center;
+}        
+}
+@media screen and (max-width:700px) {
+  aside,section {
+    float:none;
+    width:96%;
+}
+  #foto{
+    display:block;
+    margin:auto;
+    width: 500px;
+    align-items: center;
+    
+}
+  iframe{
+    display:block;
+    margin:20px ;
+    align-items: center;
+}
+  nav, section {
+    font-size:1.2em;
+}
+  aside {
+    margin-top:5px;
+}
+  nav ul {
+    float:none;
+    clear:both;
+}
+}
+@media screen and (max-width:480px) {
+  aside {
+    display:none;
+}
+  nav, section {
+    font-size:1.5em;
+}
+  section {
+    width:94%;
+}
+  nav ul {
+    float:left;
+    clear:none;
+    width:50%;
+}
+  nav ul li {
+    float:none;
+}
+  #foto{
+    display:block;
+    margin:auto;
+    width: 550px;
+    align-items: center;
+    
+}
+  iframe{
+    display:block;
+    margin:20px ;
+    align-items: center;
+}
+}

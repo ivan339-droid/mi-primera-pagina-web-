@@ -1,0 +1,91 @@
+   *{
+
+        background-image: url("https://www.xtrafondos.com/descargar.php?id=2802&resolucion=2560x1600") ;
+}
+   ul{
+
+        background: black  ;
+        height: 70px;
+        margin:-10px;
+        padding:-10px;  
+}
+    ul li{
+
+        font-family: cursive;
+        display:block;
+        float:left;
+        padding:0 10px;
+        background: black  ;
+        padding: 15px;
+        margin: 15px;
+}
+    li a {
+
+        padding: 3px 10px;
+        border-left:rgb(88, 170, 159) 5px  solid;
+        color: aliceblue;
+        background: black  ;
+}
+    li a:hover{
+
+        border:rgb(88, 170, 159) 5px  solid ; 
+}
+    h1{
+
+        color: cornsilk;
+        text-align: center;
+        font-family: comic sans MS,arial,verdana ;
+        font-size: 50px;
+}
+    img{
+
+        width: 600px;
+        border:rgb(88, 170, 159) 3.5px solid;
+}
+@media screen and (max-width:980px) {
+    .container {
+      width:98%;
+  }
+    section {
+      width:68%;
+  }
+    
+    
+  }
+  @media screen and (max-width:700px) {
+    aside,section {
+      float:none;
+      width:96%;
+  }
+    
+    nav, section {
+      font-size:1.2em;
+  }
+    aside {
+      margin-top:5px;
+  }
+    nav ul {
+      float:none;
+      clear:both;
+  }
+  }
+  @media screen and (max-width:480px) {
+    aside {
+      display:none;
+  }
+    nav, section {
+      font-size:1.5em;
+  }
+    section {
+      width:94%;
+  }
+    nav ul {
+      float:left;
+      clear:none;
+      width:50%;
+  }
+    nav ul li {
+      float:none;
+  }
+    
+  }
